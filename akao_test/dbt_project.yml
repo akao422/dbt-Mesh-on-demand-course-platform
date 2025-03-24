@@ -23,6 +23,6 @@ vars:
 models:
   core_platform:
     staging:
-      +materialized: view
+      +materialized: table
     marts:
       +materialized: table
