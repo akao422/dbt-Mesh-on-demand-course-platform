@@ -21,7 +21,7 @@ vars:
   truncate_timespan_to: "{{ current_timestamp() }}"
 
 models:
-  core_platform:
+  core_platform2:
     staging:
       +materialized: table
     marts:
