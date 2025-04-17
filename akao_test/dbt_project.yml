@@ -26,3 +26,5 @@ models:
       +materialized: table
     marts:
       +materialized: table
+    metrics:
+      +materialized: table

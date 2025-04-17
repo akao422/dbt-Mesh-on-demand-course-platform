@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+ - name: jaffle_shop2
+   database: akao_raw
+   schema: jaffle_shop
+   tables:
+     - name: customers2
+     - name: orders2
